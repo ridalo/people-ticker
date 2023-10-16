@@ -10,14 +10,12 @@
 
 // lifeMeans()
 
-let lapsCompleted = 0
+let countEl = document.getElementById("count-el")
+console.log(countEl)
+let count = 0
 
-function incrementLap() {
-	lapsCompleted = lapsCompleted + 1
-	
+function increment() {
+	count = count + 1
+	countEl.innerText = count
 }
 
-incrementLap()
-incrementLap()
-incrementLap()
-console.log(lapsCompleted)
