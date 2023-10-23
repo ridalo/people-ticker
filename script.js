@@ -19,3 +19,8 @@ function increment() {
 	countEl.innerText = count
 }
 
+function save() {
+	console.loge(count)
+}
+
+save()
