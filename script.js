@@ -10,17 +10,24 @@
 
 // lifeMeans()
 
-let countEl = document.getElementById("count-el")
-console.log(countEl)
-let count = 0
+//let countEl = document.getElementById("count-el")
+//console.log(countEl)
+//let count = 0
 
-function increment() {
-	count = count + 1
-	countEl.innerText = count
-}
+//function increment() {
+	//count = count + 1
+	//countEl.innerText = count
+//}
 
-function save() {
-	console.loge(count)
-}
+//function save() {
+	//console.loge(count)
+//}
 
-save()
+//save()
+
+let welcomeEl = document.getElementById("welcome-el").innerText
+
+let nameE = "Dale"
+let greeting = "Hello, Im "
+
+welcomeEl.innerText = greeting + nameE
