@@ -9,25 +9,19 @@
 // }
 
 // lifeMeans()
+let saveEl = document.getElementById("save-el")
+let countEl = document.getElementById("count-el")
+console.log(countEl)
+let count = 0
 
-//let countEl = document.getElementById("count-el")
-//console.log(countEl)
-//let count = 0
+function increment() {
+	count += 1
+	countEl.innerText = count
+}
 
-//function increment() {
-	//count = count + 1
-	//countEl.innerText = count
-//}
+function save() {
+let countStr = count + " - "
+saveEl.innerText += countStr
+}
 
-//function save() {
-	//console.loge(count)
-//}
-
-//save()
-
-let welcomeEl = document.getElementById("welcome-el").innerText
-
-let nameE = "Dale"
-let greeting = "Hello, Im "
-
-welcomeEl.innerText = greeting + nameE
+save()
